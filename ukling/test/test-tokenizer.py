@@ -1,5 +1,5 @@
 import unittest
-from tokenizer import UkrainianWordTokenizer
+from ukling.tokenizer import UkrainianWordTokenizer
 
 class UkrainianWordTokenizerTest(unittest.TestCase):
         def testTokenizeUrl(self):
